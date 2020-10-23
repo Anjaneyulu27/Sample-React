@@ -43,7 +43,7 @@ class ModalAlert extends React.Component {
 					onOk={this.handleOk}
 					onCancel={this.handleCancel}
 				>
-					<p>Name: Sindhu BC</p>
+					<p>Name: Test</p>
 					<p>Company: ITC Infotech India</p>
 					<p>Place:Bangalore.</p>
 				</Modal>
@@ -52,7 +52,7 @@ class ModalAlert extends React.Component {
 				) : (
 					<></>
 				)}
-
+ 
 				{this.state.alertNoState ? (
 					<Alert message="Cancel" type="info" />
 				) : (
